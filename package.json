@@ -1,5 +1,5 @@
 {
-  "name": "code-planet-deploy",
+  "name": "example",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,18 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix"
   },
-  "description": ""
+  "description": "",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsupa/example-project-updated.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsupa/example-project-updated/issues"
+  },
+  "homepage": "https://github.com/jsupa/example-project-updated#readme"
 }
