@@ -1,2 +1,4 @@
 /node_modules
 .eslintcache
+app.env
+data/express-sessions.json

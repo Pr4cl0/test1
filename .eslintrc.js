@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     'jest/globals': true
   },
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'prettier', 'plugin:jsonc/base'],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
@@ -17,6 +17,7 @@ module.exports = {
     'no-shadow': 0,
     'func-names': 0,
     'no-plusplus': 0,
+    'no-multi-assign': 'warn',
     'no-else-return': 0,
     'jest/valid-expect': 'error',
     'no-param-reassign': 0,
@@ -28,7 +29,6 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'newline-per-chained-call': 0,
     'jest/prefer-to-have-length': 'warn',
-    'prettier/prettier': ['error'],
     'comma-dangle': ['error', 'never'],
     'quote-props': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
