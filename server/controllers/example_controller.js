@@ -2,7 +2,7 @@ const { Logger } = require('betterlogger.js')
 
 const controller = {}
 
-module.exports.name = controller.name = 'controller_name'
+module.exports.name = controller.name = 'cau'
 
 const logger = new Logger(`CONTROLLER ${controller.name}`).setDebugging(99)
 
