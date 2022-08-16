@@ -1,7 +1,7 @@
 const config = {}
 
-config.port = process.env.PORT || 1337
-config.wsPort = process.env.WS_PORT || 1338
+config.port = process.env.PORT || 17723
+config.wsPort = process.env.WS_PORT || 17724
 config.hashingSecret = process.env.HASHING_SECRET || 'this is a secret'
 
 config.google = {}
